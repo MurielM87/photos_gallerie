@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top : 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_fluide {
+    width : 800px;
+    height: 600px;
+    object-fit: cover;
+    box-shadow: 2px 3px 4px white;
+}
+
+#play, 
+#pause,
+#next,
+#prev {
+    display: inline-block;
+    color: white;
+    font-size: 70px;
+    margin: 30px;
+}
+
+#galerie img{
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out;
+}
+
+#galerie img.show {
+    opacity: 1;
+    transition: opacity 0.9s ease-in-out;
+}
+
+#galerie img.hidden {
+    display: none;
+}
