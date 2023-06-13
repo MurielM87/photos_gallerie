@@ -1,2 +1,4 @@
 # photos_gallerie
-projet perso : création d'une galerie de photos en javascript
+Création d'une galerie de photos en javascript
+
+![Alt text](<galerie photos.png>)
